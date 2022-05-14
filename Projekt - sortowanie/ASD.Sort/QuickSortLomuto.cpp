@@ -32,18 +32,6 @@ void quickSort(int arr[], int p, int r)
 }
 
 
-void quickSortDown(int arr[], int p, int r)
-{
-    if (p > r)
-    {
-        int q = partition(arr, p, r);
-        quickSort(arr, p, q - 1);
-        quickSort(arr, q + 1, r);
-    }
-}
-
-
-
 int main()
 {
     int array[100000];
