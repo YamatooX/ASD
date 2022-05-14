@@ -2,40 +2,23 @@
 #include <fstream>
 
 using namespace std;
-void heapify(int arr[], int n, int i)
+
+//Prosty algorytm sortuj¹cy, który dzia³a przez wielokrotne porównywanie i zamienianie s¹siednich elementów. Nieodpowiedni do du¿ych zestawów danych
+
+void bubbleSort(int arr[], int n)
 {
-    int largest = i;
-    int l = 2 * i + 1;
-    int r = 2 * i + 2;
-
-    if (l < n && arr[l] > arr[largest])
-        largest = l;
-
-    if (r < n && arr[r] > arr[largest])
-        largest = r;
-
-    if (largest != i) {
-        swap(arr[i], arr[largest]);
-
-        heapify(arr, n, largest);
-    }
-}
-
-void heapSort(int arr[], int n)
-{
-    for (int i = n / 2 - 1; i >= 0; i--)
-        heapify(arr, n, i);
-
-    for (int i = n - 1; i > 0; i--) {
-        swap(arr[0], arr[i]);
-
-        heapify(arr, i, 0);
-    }
+    int i, j;
+    for (i = 0; i < n - 1; i++)
+        for (j = 0; j < n - i - 1; j++)
+            if (arr[j] > arr[j + 1])
+                swap(arr[j], arr[j + 1]);
 }
 
 int main()
 {
+    
     int array[100000];
+
     ifstream file;
     file.open("plik.txt", ios::in);
 
@@ -45,6 +28,7 @@ int main()
     }
     else
     {
+
         for (int i = 0; i < 100000; i++)
             file >> array[i];
     }
@@ -53,20 +37,25 @@ int main()
 
     clock_t start = clock();
 
-    heapSort(array, 100000);
+    bubbleSort(array, 99999);
 
     clock_t end = clock();
 
     double elapsed = double(end - start) / CLOCKS_PER_SEC;
 
+    /*for (int i = 0; i < 100000; i++)
+        cout << array[i] << endl;*/
+
     cout << "Czas: " << elapsed << "s     ";
 
     clock_t start2 = clock();
 
-    heapSort(array, 100000);
+    bubbleSort(array, 100000);
 
     clock_t end2 = clock();
 
     double elapsed2 = double(end2 - start2) / CLOCKS_PER_SEC;
     cout << "Czas: " << elapsed2 << "s";
+
+    return 0;
 }

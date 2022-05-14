@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <fstream>
 
 using namespace std;
 
@@ -24,33 +25,65 @@ void quickSort(int arr[], int p, int r)
 {
     if (p < r)
     {
-        /* pi is partitioning index, arr[p] is now
-           at right place */
         int q = partition(arr, p, r);
-
-        // Separately sort elements before
-        // partition and after partition
         quickSort(arr, p, q - 1);
         quickSort(arr, q + 1, r);
     }
 }
 
-/* Function to print an array */
-void printArray(int arr[], int size)
+
+void quickSortDown(int arr[], int p, int r)
 {
-    int i;
-    for (i = 0; i < size; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
+    if (p > r)
+    {
+        int q = partition(arr, p, r);
+        quickSort(arr, p, q - 1);
+        quickSort(arr, q + 1, r);
+    }
 }
 
-// Driver program to test above functions
+
+
 int main()
 {
-    int arr[] = { 10, 7, 8, 9, 1, 5 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-    quickSort(arr, 0, n - 1);
-    printf("Sorted array: \n");
-    printArray(arr, n);
+    int array[100000];
+    ifstream file;
+    file.open("plik.txt", ios::in);
+
+    if (!file.good())
+    {
+        return 0;
+    }
+    else
+    {
+
+        for (int i = 0; i < 100000; i++)
+            file >> array[i];
+    }
+
+    file.close();
+
+
+    clock_t start = clock();
+
+    quickSortDown(array, 0, 99999);
+
+    clock_t end = clock();
+    double elapsed = double(end - start) / CLOCKS_PER_SEC;
+
+    cout << "Czas: " << elapsed << "s" << endl;
+
+  /*  for (int i = 0; i < 100000; i++)
+        cout << array[i] << endl;*/
+    clock_t start2 = clock();
+
+    quickSort(array, 0, 99999);
+
+    clock_t end2 = clock();
+    double elapsed2 = double(end2 - start2) / CLOCKS_PER_SEC;
+
+    cout << "Czas: " << elapsed2 << "s" << endl;
+
+
     return 0;
 }
