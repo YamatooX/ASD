@@ -57,5 +57,20 @@ int main()
     double elapsed2 = double(end2 - start2) / CLOCKS_PER_SEC;
     cout << "Czas: " << elapsed2 << "s";
 
+    int arr[100000];
+    int j = 0;
+    for (int i = 99999; i >= 0; i--) {
+        arr[j] = array[i];
+        j++;
+    }
+
+
+    clock_t start3 = clock();
+    bubbleSort(array, 100000);
+    clock_t end3 = clock();
+    double elapsed3 = double(end3 - start3) / CLOCKS_PER_SEC;
+
+    cout << "Czas: " << elapsed3 << "s" << endl;
+
     return 0;
 }

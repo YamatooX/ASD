@@ -53,25 +53,29 @@ int main()
 
 
     clock_t start = clock();
-
-    quickSortDown(array, 0, 99999);
-
+    quickSort(array, 0, 99999);
     clock_t end = clock();
     double elapsed = double(end - start) / CLOCKS_PER_SEC;
-
     cout << "Czas: " << elapsed << "s" << endl;
 
-  /*  for (int i = 0; i < 100000; i++)
-        cout << array[i] << endl;*/
     clock_t start2 = clock();
-
     quickSort(array, 0, 99999);
-
     clock_t end2 = clock();
     double elapsed2 = double(end2 - start2) / CLOCKS_PER_SEC;
-
     cout << "Czas: " << elapsed2 << "s" << endl;
 
+    int[100000] arr;
+    for (int j = 0, int i = 100000; i >= 0; i--, j++) {
+        arr[j] = array[i];
+    }
+
+
+    clock_t start3 = clock();
+    quickSort(array, 0, 99999);
+    clock_t end3 = clock();
+    double elapsed2 = double(end3 - start3) / CLOCKS_PER_SEC;
+
+    cout << "Czas: " << elapsed3 << "s" << endl;
 
     return 0;
 }
