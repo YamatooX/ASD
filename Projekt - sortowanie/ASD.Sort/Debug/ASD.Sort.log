@@ -1,0 +1,4 @@
+﻿cl : wiersz polecenia warning D9025: przesłanianie "/analyze-" przez " /analyze:stacksize32768"
+  MergeSort.cpp
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt - sortowanie\ASD.Sort\MergeSort.cpp(60): warning C6262: Liczba bajtów stosu używana przez funkcję („800244”) przekracza wartość /analyze:stacksize „32768”. Rozważ przeniesienie części danych na stertę.
+LINK : fatal error LNK1229: Rozmiar zatwierdzenia jest większy niż zarezerwowany rozmiar w elemencie „/STACK”

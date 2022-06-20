@@ -1,0 +1,14 @@
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\bin\Debug\netcoreapp3.1\Kmpresor.exe
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\bin\Debug\netcoreapp3.1\Kmpresor.deps.json
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\bin\Debug\netcoreapp3.1\Kmpresor.runtimeconfig.json
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\bin\Debug\netcoreapp3.1\Kmpresor.runtimeconfig.dev.json
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\bin\Debug\netcoreapp3.1\Kmpresor.dll
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\bin\Debug\netcoreapp3.1\Kmpresor.pdb
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.csproj.AssemblyReference.cache
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.AssemblyInfoInputs.cache
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.AssemblyInfo.cs
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.csproj.CoreCompileInputs.cache
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.dll
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.pdb
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kmpresor\obj\Debug\netcoreapp3.1\Kmpresor.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.csproj.AssemblyReference.cache
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.AssemblyInfoInputs.cache
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.AssemblyInfo.cs
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.csproj.CoreCompileInputs.cache
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\bin\Debug\netcoreapp3.1\HoffmanCompresor.exe
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\bin\Debug\netcoreapp3.1\HoffmanCompresor.deps.json
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\bin\Debug\netcoreapp3.1\HoffmanCompresor.runtimeconfig.json
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\bin\Debug\netcoreapp3.1\HoffmanCompresor.runtimeconfig.dev.json
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\bin\Debug\netcoreapp3.1\HoffmanCompresor.dll
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\bin\Debug\netcoreapp3.1\HoffmanCompresor.pdb
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.dll
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.pdb
+D:\Studia\Zajęcia\Algorytmy i struktury danych\ćw\ASD\Projekt2 - kompresor\Kompresor\HoffmanCompresor\obj\Debug\netcoreapp3.1\HoffmanCompresor.genruntimeconfig.cache
